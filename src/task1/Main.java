@@ -37,5 +37,8 @@ public class Main {
         SellProduct.sellProduct(buyer, storage);
         System.out.println("Bill after sell: \n" + cashier.giveBill(buyer) + "\n Total price: " + cashier.giveBill(buyer).getTotalPrice());
         System.out.println("After sell: " + storage.getProducts().get(banana));
+
+        storage.addProduct(soap, 30, storage);
+        System.out.println(storage.getProducts());
     }
 }
