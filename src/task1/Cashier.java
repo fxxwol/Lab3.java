@@ -14,7 +14,7 @@ public class Cashier {
     public Cashier(final String name) {
         this.name = name;
     }
-    Bill giveBill (final Buyer buyer){
+    public Bill giveBill (final Buyer buyer){
         return buyer.getBill();
     }
 }

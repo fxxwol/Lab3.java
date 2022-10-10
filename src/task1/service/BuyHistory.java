@@ -28,9 +28,18 @@ private List<Bill> listOfBills;
     public void setListOfBills(final List<Bill> listOfBills) {
         this.listOfBills = listOfBills;
     }
-
+public void addBill(final Bill billToAdd){
+        listOfBills.add(billToAdd);
+}
     public List<Bill> saveBuyHistory(){
         listOfBills.add(buyer.getBill());
         return listOfBills;
+    }
+
+    @Override
+    public String toString() {
+        return "buyer=" + buyer +
+                ", listOfBills=" + listOfBills +
+                '}';
     }
 }

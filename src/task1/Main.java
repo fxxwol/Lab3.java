@@ -4,6 +4,7 @@ import task1.service.BuyHistory;
 import task1.service.GetProduct;
 import task1.service.SellProduct;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -33,8 +34,8 @@ public class Main {
         }};
 
         final Storage storage = new Storage(storageMap);
-        final Bill billOfBuyer = new Bill(billMap);
-        final Bill billOfBuyer1 = new Bill(billMap1);
+        final Bill billOfBuyer = new Bill(billMap, LocalDate.of(2022, 10, 2));
+        final Bill billOfBuyer1 = new Bill(billMap1, LocalDate.of(2022, 10, 8));
         final List<Bill> listOfBills = new ArrayList<>(){{
             add(billOfBuyer);
         }};

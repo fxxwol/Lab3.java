@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3111fa8-4874-4687-9f85-ec0078bfe6fc" name="Changes" comment="fixed addProduct">
-      <change afterPath="$PROJECT_DIR$/src/task1/service/BuyHistory.java" afterDir="false" />
+    <list default="true" id="f3111fa8-4874-4687-9f85-ec0078bfe6fc" name="Changes" comment="BuyHistory">
+      <change afterPath="$PROJECT_DIR$/src/task2/EmptyNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/PriceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/ProductAmountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task3/service/AveragePrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task3/service/BestProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task3/service/PopularProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task3/service/SortProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task3/service/TimePeriodExpenses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task3/service/TotalProductCountPerBuyer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Cashier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task1/service/SaveBuyHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/service/BuyHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/service/BuyHistory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +56,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665397999478</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BuyHistory">
+      <created>1665399419938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665399419938</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,7 +111,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task1" />
     <MESSAGE value="fixed addProduct" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed addProduct" />
+    <MESSAGE value="BuyHistory" />
+    <option name="LAST_COMMIT_MESSAGE" value="BuyHistory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -91,6 +121,14 @@
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
           <option name="timeStamp" value="7" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/task3/service/BestProfit.java</url>
+          <line>14</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
