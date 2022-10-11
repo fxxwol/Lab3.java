@@ -13,11 +13,11 @@ import static java.util.stream.Collectors.summingInt;
 
 public class TotalProductCountPerBuyer {
     public static Map<Product, Integer> getTotalProductCount(final BuyHistory history) {
-        final List<Map<Product, Integer>> maps = new ArrayList<>();
+        final List<Map<Product, Integer>> eachProductTotalCount = new ArrayList<>();
         for (final Bill b : history.getListOfBills()) {
-            maps.add(b.getProducts());
+            eachProductTotalCount.add(b.getProducts());
         }
-        return maps.stream()
+        return eachProductTotalCount.stream()
                 .flatMap(m -> m.entrySet().stream())
                 .collect(groupingBy(Map.Entry::getKey, summingInt(Map.Entry::getValue)));
     }
