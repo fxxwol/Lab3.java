@@ -10,6 +10,7 @@ public class Product {
         this.name = name;
         this.price = price;
     }
+
     public String getName() {
         return name;
     }
@@ -23,6 +24,7 @@ public class Product {
     }
 
     public void setPrice(final double price) {
+
         this.price = price;
     }
 
@@ -42,6 +44,6 @@ public class Product {
     @Override
     public String toString() {
         return "name='" + name + '\'' +
-                ", price=" + price ;
+                ", price=" + price;
     }
 }

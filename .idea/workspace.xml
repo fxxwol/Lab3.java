@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3111fa8-4874-4687-9f85-ec0078bfe6fc" name="Changes" comment="changed run">
-      <change beforePath="$PROJECT_DIR$/src/task3/service/TotalProductCountPerBuyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3/service/TotalProductCountPerBuyer.java" afterDir="false" />
+    <list default="true" id="f3111fa8-4874-4687-9f85-ec0078bfe6fc" name="Changes" comment="naming">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/service/BuyHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/service/BuyHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/service/SellProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/service/SellProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task3/service/BestProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3/service/BestProfit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665492534393</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="naming">
+      <created>1665493415011</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665493415011</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,7 +135,8 @@
     <MESSAGE value="Task2 and Task3" />
     <MESSAGE value="Task4" />
     <MESSAGE value="changed run" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed run" />
+    <MESSAGE value="naming" />
+    <option name="LAST_COMMIT_MESSAGE" value="naming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

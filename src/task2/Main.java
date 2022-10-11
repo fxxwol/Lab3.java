@@ -20,7 +20,7 @@ public class Main {
 
         try {
             if (report.validateProduct(soap)) {
-                storage.addProduct(soap, 30, storage);
+                storage.addProduct(soap, 30);
                 System.out.println(soap.getName() + " was added to storage");
             }
         } catch (final EmptyNameException | PriceException e) {

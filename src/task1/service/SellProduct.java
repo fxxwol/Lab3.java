@@ -18,8 +18,9 @@ public class SellProduct {
                     System.out.println("We don't have " + k1.getName() + " in storage!");
                 }
             });
-            buyer.getBill().getProducts().entrySet().removeIf(entry -> entry.getValue() > v);
-            buyer.getBill().getProducts().entrySet().removeIf(entry -> !storage.getProducts().containsKey(entry.getKey()));
+            buyer.getBill().getProducts().entrySet()
+                    .removeIf(entry -> entry.getValue() > v ||
+                              !storage.getProducts().containsKey(entry.getKey()));
         });
     }
 }

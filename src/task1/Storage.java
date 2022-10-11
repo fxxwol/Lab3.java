@@ -23,17 +23,16 @@ public class Storage {
         return new ArrayList<>(products.keySet());
     }
 
-    public void addProduct(final Product productToAdd, final Integer amount, final Storage storage) {
-        products.entrySet().stream()
-                .filter(e -> e.getKey().equals(productToAdd))
-                .findFirst()
-                .ifPresent(p -> p.setValue(storage.getProducts().get(p.getKey()) + amount));
+    public void addProduct(final Product productToAdd, final Integer amount) {
         if (!products.containsKey(productToAdd)) {
             products.put(productToAdd, amount);
+        }
+        else{
+            products.put(productToAdd, getProducts().get(productToAdd) + amount);
         }
     }
 
     public void removeProduct(final Product productToRemove) {
-        products.entrySet().removeIf(entry -> entry.getKey().equals(productToRemove));
+        products.remove(productToRemove);
     }
 }

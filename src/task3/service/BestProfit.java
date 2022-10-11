@@ -21,6 +21,7 @@ public class BestProfit {
         return allBillsPerDay
                 .stream()
                 .max(Comparator.comparing(Bill::getTotalPrice))
-                .get().getTotalPrice();
+                .orElseThrow()
+                .getTotalPrice();
     }
 }

@@ -6,11 +6,11 @@ import java.util.List;
 
 public class BuyHistory {
 private Buyer buyer;
-private List<Bill> listOfBills;
+private List<Bill> bills;
 
     public BuyHistory(final Buyer buyer, final List<Bill> listOfBills) {
         this.buyer = buyer;
-        this.listOfBills = listOfBills;
+        this.bills = listOfBills;
     }
 
     public Buyer getBuyer() {
@@ -22,24 +22,24 @@ private List<Bill> listOfBills;
     }
 
     public List<Bill> getListOfBills() {
-        return listOfBills;
+        return bills;
     }
 
     public void setListOfBills(final List<Bill> listOfBills) {
-        this.listOfBills = listOfBills;
+        this.bills = listOfBills;
     }
 public void addBill(final Bill billToAdd){
-        listOfBills.add(billToAdd);
+    bills.add(billToAdd);
 }
     public List<Bill> saveBuyHistory(){
-        listOfBills.add(buyer.getBill());
-        return listOfBills;
+        bills.add(buyer.getBill());
+        return bills;
     }
 
     @Override
     public String toString() {
         return "buyer=" + buyer +
-                ", listOfBills=" + listOfBills +
+                ", listOfBills=" + bills +
                 '}';
     }
 }

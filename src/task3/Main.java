@@ -66,7 +66,7 @@ public class Main {
             add(history1);
         }};
 
-        System.out.println("All expenses from 02.10.22 to 08.10.2022: " +
+        System.out.println("All expenses from 01.10.22 to 09.10.2022: " +
                 TimePeriodExpenses.getAllExpensesPerTime(history, LocalDate.of(2022, 10, 1),
                         LocalDate.of(2022, 10, 9)));
         System.out.println(TotalProductCountPerBuyer.getTotalProductCount(history));
