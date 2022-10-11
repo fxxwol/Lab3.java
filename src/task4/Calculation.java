@@ -8,7 +8,6 @@ class Calculation implements Runnable {
     }
 
     public void run() {
-        synchronized (resource) {
             int counter = 0;
             int num;
             //prints the number till specified number is reached, starting from 10
@@ -22,6 +21,5 @@ class Calculation implements Runnable {
                 Thread.sleep(100);
             }
             catch(final InterruptedException e){}
-        }
     }
 }
