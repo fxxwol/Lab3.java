@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3111fa8-4874-4687-9f85-ec0078bfe6fc" name="Changes" comment="BuyHistory">
-      <change afterPath="$PROJECT_DIR$/src/task2/EmptyNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/PriceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/ProductAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task3/service/AveragePrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task3/service/BestProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task3/service/PopularProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task3/service/SortProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task3/service/TimePeriodExpenses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task3/service/TotalProductCountPerBuyer.java" afterDir="false" />
+    <list default="true" id="f3111fa8-4874-4687-9f85-ec0078bfe6fc" name="Changes" comment="Task2 and Task3">
+      <change afterPath="$PROJECT_DIR$/src/task4/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4_A/ArithmeticService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4_A/CalcThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4_A/Calculations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4_A/Resources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task1/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task1/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Cashier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task1/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task1/service/BuyHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/service/BuyHistory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665399419938</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Task2 and Task3">
+      <created>1665428182910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665428182910</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,7 +109,8 @@
     <MESSAGE value="Task1" />
     <MESSAGE value="fixed addProduct" />
     <MESSAGE value="BuyHistory" />
-    <option name="LAST_COMMIT_MESSAGE" value="BuyHistory" />
+    <MESSAGE value="Task2 and Task3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task2 and Task3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -121,14 +119,6 @@
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
           <option name="timeStamp" value="7" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/task3/service/BestProfit.java</url>
-          <line>14</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
